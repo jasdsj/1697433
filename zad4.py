@@ -14,7 +14,7 @@ import numpy as np
 # zad3
 
 def zad3(n):
-    m = np.zeros((n,n))
+    m = np.zeros((n, n))
     yos = 1
 
     for i in range(n):
@@ -30,7 +30,6 @@ def zad4(n, m):
 
 
 def main():
-
     # zad3(4)
     zad4(2, 4)
 

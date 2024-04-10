@@ -25,7 +25,7 @@ def zad3(n):
 
 
 def zad4(n, m):
-    x = np.logspace(n, 2,endpoint=False, num=m, base=2 , dtype='int32')
+    x = np.logspace(1, m, num=m, base=n)
     print(x)
 
 

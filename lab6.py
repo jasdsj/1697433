@@ -39,4 +39,5 @@ print(df)
 
 print(df.sort_values('Kraj'))
 
-
+df = pd.read_csv('iris.data', header=0, sep=",", decimal='.')
+print(df)

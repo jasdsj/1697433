@@ -1,0 +1,43 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import openpyxl
+
+
+# x = np.arange(1, 20)
+# y = 1/x
+#
+# plt.plot(x, y, 'g>:', label=" f(x) = 1/x")
+# plt.axis((0,20,0,1))
+# plt.title('Wykres funkcji f(x) dla x [1, 20]')
+# plt.legend()
+# plt.ylabel('f(x)')
+# plt.xlabel('x')
+# plt.show()
+
+
+# x1 = np.arange(0, 30, 0.1)
+# x2 = np.arange(0, 30, 0.1)
+#
+# y1 = np.sin(x1)
+# y2 = np.cos(x2)
+#
+# plt.subplot(2,1,1)
+# plt.plot(x1, y1, label = "sin(x)")
+# plt.title('sin(x)')
+# plt.axis((0, 30, -1, 1))
+# plt.legend(loc='upper right')
+#
+# plt.subplot(2,1,2)
+# plt.plot(x2, y2, label = "cos(x)")
+# plt.title('cos(x)')
+# plt.axis((0, 30, -1, 1))
+# plt.legend(loc='lower left')
+#
+# plt.subplots_adjust(hspace = 0.5)
+# plt.show()
+
+
+df = pd.read_csv('iris.data', header=0, sep=",", decimal='.')
+print(df)
+
